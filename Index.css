@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: black;
+
+}
+h1{
+    background-color: deepskyblue;
+}
+input, button{
+    margin: 5px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 95px;
+    text-align: center;
+    margin-left: 820px;
+}
+li{
+    margin-bottom: 10px;
+    background-color: deepskyblue;
+}
+h2{
+    background-color: deepskyblue;
+}
+select{
+    padding: 5px 5px 5px 5px;
+    font-style: italic;
+    font-size: 18px;
+}
+button{
+    padding: 9px 6px 6px 9px;
+    font-style: italic;
+    font-size: 14px;
+}

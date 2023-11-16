@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Inventory System</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    
+    <h1>Javascript Inventory System</h1>
+
+    <input type="text" id="itemName" placeholder="Item Name">
+    <input type="number" id="quantity" placeholder="quantity">
+    <button onclick="addItem()">Add Item</button>
+
+    <ul id="inventoryList"></ul>
+
+    <select id="removeItem"></select>
+    <button onclick="removeItem()">Remove Item </button>
+    <div>
+        <h2>Current Inventory</h2>
+    </div>
+
+    <script src="Index.js"></script>
+</body>
+</html>
